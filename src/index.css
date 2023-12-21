@@ -10,6 +10,11 @@
   }
 }
 
+:root{
+  --white: hsl(0, 0%, 100%);  
+  --white-200: hsl(0, 0%, 100%, 0.8);  
+}
+
 .main-bg {
   background-image: url('/images/bg-intro-mobile.png');
   background-size: cover;
