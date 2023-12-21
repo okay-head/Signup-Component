@@ -3,3 +3,32 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .form-formatting {
+    @apply mt-1 w-full rounded-md border-gray-300 py-3 text-sm font-semibold text-neutral-darkBlue shadow-sm placeholder:font-semibold focus:border-accent-blue focus:ring-1 focus:ring-accent-blue focus:ring-opacity-50;
+  }
+}
+
+.main-bg {
+  background-image: url('/images/bg-intro-mobile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+.shadow-custom {
+  box-shadow: 0 6px 2px hsl(0, 0%, 0%, 0.2);
+}
+.shadow-custom:not(.form-container):hover {
+  box-shadow: 0 6px 2px hsl(0, 0%, 0%, 0.3);
+}
+
+/* [IMPROVEMENT] could've utilized mixins or custom properties? */
+
+.shadow-custom-2 {
+  box-shadow: 0 5px 2px hsl(154, 59%, 46%);
+}
+.shadow-custom-2:hover {
+  box-shadow: 0 5px 2px hsl(154, 59%, 40%);
+}
