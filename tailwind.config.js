@@ -9,7 +9,10 @@ export default {
       colors: {
         primary: {
           red: 'hsl(0, 100%, 74%)',
-          green: 'hsl(154, 59%, 51%)',
+          green: {
+            600:'hsl(154, 59%, 51%)',
+            300:'hsl(154, 59%, 65%)',
+          },
         },
         accent: {
           blue: 'hsl(248, 32%, 49%)',
