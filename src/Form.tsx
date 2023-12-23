@@ -42,7 +42,7 @@ export default function Form() {
         <div>
           <button
             id='submit'
-            className='shadow-custom-2 w-full rounded-md bg-primary-green py-4 font-semibold uppercase outline-offset-2 focus-visible:shadow-none focus-visible:outline-2 focus-visible:outline-accent-blue'
+            className='shadow-custom-2 mx-auto w-full max-w-72 rounded-md bg-primary-green py-4 font-semibold uppercase outline-offset-2 focus-visible:shadow-none focus-visible:outline-2 focus-visible:outline-accent-blue lg:max-w-[unset]'
           >
             <span className='text-container mx-auto max-w-max'>
               Claim your free trial
@@ -51,7 +51,10 @@ export default function Form() {
         </div>
         <div className='mx-auto max-w-64 text-sm font-medium text-neutral-grayBlue lg:max-w-[unset]'>
           By clicking the button, you are agreeing to our{' '}
-          <a className='cursor-pointer font-semibold text-primary-red outline-offset-2 outline-neutral-grayBlue hover:underline'>
+          <a
+            href=''
+            className='cursor-pointer font-semibold text-primary-red outline-offset-2 outline-neutral-grayBlue hover:underline'
+          >
             Terms and Services
           </a>
         </div>

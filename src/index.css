@@ -6,7 +6,7 @@
 
 @layer utilities {
   .form-formatting {
-    @apply mt-1 w-full rounded-md border-gray-300 px-5 py-3 text-sm font-bold text-neutral-darkBlue shadow-sm placeholder:font-semibold focus:border-accent-blue focus:ring-1 focus:ring-accent-blue focus:ring-opacity-50;
+    @apply mt-1 w-full rounded-md border-gray-300 py-3 text-sm font-bold text-neutral-darkBlue shadow-sm placeholder:font-semibold focus:border-accent-blue focus:ring-1 focus:ring-accent-blue focus:ring-opacity-50 lg:px-5;
   }
 }
 
