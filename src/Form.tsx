@@ -1,7 +1,7 @@
 export default function Form() {
   return (
     <form>
-      <div className='form-container shadow-custom flex flex-col gap-6 rounded-lg bg-white p-6'>
+      <div className='form-container shadow-custom flex flex-col gap-6 rounded-lg bg-white p-6 lg:p-10 lg:py-12'>
         <div>
           <input
             className='form-formatting'
@@ -42,18 +42,18 @@ export default function Form() {
         <div>
           <button
             id='submit'
-            className='shadow-custom-2 w-full rounded-md bg-primary-green py-4 font-semibold uppercase'
+            className='shadow-custom-2 w-full rounded-md bg-primary-green py-4 font-semibold uppercase outline-offset-2 focus-visible:shadow-none focus-visible:outline-2 focus-visible:outline-accent-blue'
           >
             <span className='text-container mx-auto max-w-max'>
               Claim your free trial
             </span>
           </button>
         </div>
-        <div className='mx-auto max-w-64 text-sm font-medium text-neutral-grayBlue'>
+        <div className='mx-auto max-w-64 text-sm font-medium text-neutral-grayBlue lg:max-w-[unset]'>
           By clicking the button, you are agreeing to our{' '}
-          <span className='cursor-pointer font-semibold text-primary-red hover:underline'>
+          <a className='cursor-pointer font-semibold text-primary-red outline-offset-2 outline-neutral-grayBlue hover:underline'>
             Terms and Services
-          </span>
+          </a>
         </div>
       </div>
     </form>
