@@ -1,10 +1,11 @@
 import Form from './Form'
-
+import Zod from './Zod'
 export default function App() {
   return (
     // Main is the 'container' itself, therefore no separate component for adjusting margins is introduced
 
     <main className='main-bg min-h-screen bg-primary-red px-6 pb-14 pt-5 text-center font-poppins text-white lg:px-12 lg:pb-10'>
+      <Zod />
       <div className='content-container mx-auto min-h-[calc(100vh-4.5rem)] max-w-screen-xl items-center gap-8 lg:flex xl:justify-evenly xl:gap-0'>
         <section className='main-text lg:text-left'>
           {/* convert to fluid heading [ IMPROVEMENT ] */}
