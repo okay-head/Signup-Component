@@ -2,6 +2,7 @@ export default function Form() {
   return (
     <form>
       <div className='form-container shadow-custom flex flex-col gap-6 rounded-lg bg-white p-6 lg:p-10 lg:py-12'>
+        {/* -- input-text -- */}
         <div className='relative'>
           <span className='error-svg absolute right-4 top-[36%] hidden -translate-y-1/2 text-primary-red'>
             <img src='/images/icon-error.svg' alt='error icon' />

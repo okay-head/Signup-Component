@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+form-notes.md
+Zod.tsx
 
 # Editor directories and files
 .vscode/*
