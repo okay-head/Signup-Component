@@ -3,6 +3,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
 import ErrorSvg from './components/ErrorSvg'
 import ErrorMsg from './components/ErrorMsg'
+
 export default function Form() {
   /*   type TForm = {
     firstname: string,
@@ -25,6 +26,7 @@ export default function Form() {
   //single source of truth
   type TForm = z.infer<typeof formSchema>
 
+  //initialising react-hook-form
   const {
     register,
     handleSubmit,
@@ -35,7 +37,7 @@ export default function Form() {
     resolver: zodResolver(formSchema),
   })
 
-  //SumbitHandler is an imported type
+  //SumbitHandler is an imported 'type'
   const onSubmitHandler: SubmitHandler<TForm> = (data) => {
     console.log(data)
     alert('Form submitted successfully')
@@ -61,7 +63,6 @@ export default function Form() {
             id='firstname'
             placeholder='First name'
           />
-          {/* error-message */}
           <ErrorMsg>{errors?.firstname?.message}</ErrorMsg>
         </div>
 
@@ -76,7 +77,6 @@ export default function Form() {
             id='lastname'
             placeholder='Last name'
           />
-          {/* error-message */}
           <ErrorMsg>{errors?.lastname?.message}</ErrorMsg>
         </div>
 
@@ -91,7 +91,6 @@ export default function Form() {
             id='email'
             placeholder='Email Address'
           />
-          {/* error-message */}
           <ErrorMsg>{errors?.email?.message}</ErrorMsg>
         </div>
 
@@ -106,7 +105,6 @@ export default function Form() {
             id='password'
             placeholder='Password'
           />
-          {/* error-message */}
           <ErrorMsg>{errors?.password?.message}</ErrorMsg>
         </div>
 
@@ -122,7 +120,7 @@ export default function Form() {
           </button>
         </div>
         <div className='mx-auto max-w-64 text-sm font-medium text-neutral-grayBlue lg:max-w-[unset]'>
-          By clicking the button, you are agreeing to our 
+          By clicking the button, you are agreeing to our
           <a
             href=''
             className='cursor-pointer font-semibold text-primary-red outline-offset-2 outline-neutral-grayBlue hover:underline'
