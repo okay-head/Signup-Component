@@ -21,6 +21,7 @@ export default function Form() {
       .string()
       .min(1, 'Password is required')
       .min(8, 'Password must be min 8 chars long'),
+    checkbox: z.boolean(),
   })
 
   //single source of truth
@@ -32,8 +33,15 @@ export default function Form() {
     handleSubmit,
     formState: { errors },
     reset,
+    watch,
   } = useForm<TForm>({
-    defaultValues: { firstname: '', lastname: '', email: '', password: '' },
+    defaultValues: {
+      firstname: '',
+      lastname: '',
+      email: '',
+      password: '',
+      checkbox: false,
+    },
     resolver: zodResolver(formSchema),
   })
 
@@ -44,6 +52,9 @@ export default function Form() {
     reset() // reset the form
   }
   const onErrorHandler: SubmitErrorHandler<TForm> = (err) => console.error(err)
+
+  const isChecked = watch('checkbox')
+  console.log(isChecked)
 
   return (
     <form
@@ -110,23 +121,39 @@ export default function Form() {
 
         <div>
           <button
+            disabled={!isChecked}
             form='form'
             id='submit'
-            className='shadow-custom-2 mx-auto w-full max-w-72 rounded-md bg-primary-green-600 py-4 font-semibold uppercase outline-offset-2 hover:bg-primary-green-300 focus-visible:shadow-none focus-visible:outline-2 focus-visible:outline-accent-blue lg:max-w-[unset]'
+            className={`mx-auto w-full max-w-72 cursor-not-allowed rounded-md bg-gray-300 py-4 font-semibold uppercase outline-offset-2 focus-visible:shadow-none focus-visible:outline-2 lg:max-w-[unset] ${
+              isChecked
+                ? 'shadow-custom-2 !focus-visible:outline-accent-blue !cursor-pointer !bg-primary-green-600 hover:!bg-primary-green-300'
+                : ''
+            }`}
           >
             <span className='text-container mx-auto max-w-max'>
               Claim your free trial
             </span>
           </button>
         </div>
-        <div className='mx-auto max-w-64 text-sm font-medium text-neutral-grayBlue lg:max-w-[unset]'>
-          By clicking the button, you are agreeing to our
-          <a
-            href=''
-            className='cursor-pointer font-semibold text-primary-red outline-offset-2 outline-neutral-grayBlue hover:underline'
-          >
-            Terms and Services
-          </a>
+        <div className='mx-auto flex max-w-64 items-center text-sm font-medium text-neutral-grayBlue lg:max-w-[unset]'>
+          <input
+            {...register('checkbox')}
+            type='checkbox'
+            name='checkbox'
+            id='checkbox'
+            className='me-2 rounded-sm border-gray-300 text-accent-blue focus:ring-1 focus:ring-accent-blue'
+          />
+          <div>
+            You agree to our{' '}
+            <a
+              href='https://www.termsfeed.com/public/uploads/2021/12/sample-privacy-policy-template.pdf'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='cursor-pointer font-semibold text-primary-red outline-offset-2 outline-neutral-grayBlue hover:underline'
+            >
+              Terms and Services
+            </a>
+          </div>
         </div>
       </div>
     </form>
