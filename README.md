@@ -45,11 +45,8 @@ Users should be able to:
 #### Mobile
 
 <p align="center">
-
-![Screenshot mob](./public/images/screenshot-mob.png)
-
-![Screenshot mob](./public/images/screenshot-mob-error.png)
-
+  <img src="./public/images/screenshot-mob.png" alt="Mob screenshot" align="center">
+  <img src="./public/images/screenshot-mob-error.png" alt="Mob screenshot error" align="center">
 </p>
 
 ### Links
