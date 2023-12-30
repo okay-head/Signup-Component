@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4cc745ea-b285-40af-aa00-122d8844e963/deploy-status)](https://app.netlify.com/sites/gentle-froyo-74b6f1/deploys)
 
-This is a solution to the [following challenge](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). 
+This is a solution to the [following challenge](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
 
 ## Table of contents
 
