@@ -1,22 +1,22 @@
-# Frontend Mentor - Intro component with sign up form solution
-⚠ Readme is incomplete
+# Frontend Mentor - Intro component with sign up form
 
-This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4cc745ea-b285-40af-aa00-122d8844e963/deploy-status)](https://app.netlify.com/sites/gentle-froyo-74b6f1/deploys)
+
+This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
+  - [Built with](#technologies-used)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
 
 ## Overview
 
@@ -27,83 +27,81 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Receive an error message when the `form` is submitted if:
-  - Any `input` field is empty. The message for this error should say *"[Field Name] cannot be empty"*
-  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Looks like this is not an email"*
+  - Any `input` field is empty.
+  - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`).
+  - Password is less than 8 characters
+  - I added a bonus checkbox for _T&C_. Form will not submit without checking this box first.
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+#### Desktop
 
-__Screenshot here__
+![Default view](./public/images/screenshot-desktop.png)
+
+![Default view](./public/images/screenshot.png)
+
+![Error state](./public/images/screenshot-error.png)
+
+#### Mobile
+
+![Screenshot mob](./public/images/screenshot-mob.png)
+
+![Screenshot mob](./public/images/screenshot-mob-error.png)
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: [Github](https://github.com/killer-goose/Signup-Component)
+- Live Site URL: [Deployment](https://gentle-froyo-74b6f1.netlify.app/)
 
 ## My process
 
-### Built with
+- Created a figma file out of images
+- Designed my markup desktop-first
+- Added CSS mobile-first
+- Refactored, documented and all over again
+- Tracked my time throughout
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+### Technologies used
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- **[React](https://react.dev/)** (for composable spaghetti code)
+- **[Typescript](https://www.typescriptlang.org/)** (type safety at the cost of headache)
+- **[Tailwindcss](https://tailwindcss.com/)** (for ugly HTML)
+- **[Tailwind/forms](https://github.com/tailwindlabs/tailwindcss-forms)** (for resets)
+- **[React hook form](https://react-hook-form.com/)** (form states, performance, errors)
+- **[Zod](https://zod.dev/)** (schema resolver, form validator)
+- **[Prettier](https://prettier.io/)** (tabs or spaces? pnpm format)
+- **[pnpm](https://pnpm.io/)** (low disk space? say no more)
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- Documenting your code.
+- Type-safety is underrated.
+- Zod as a schema resolver makes the code a little more structured.
+- Making projects and refining them on your own without deadlines is bliss.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+This project is close to complete.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Continued development will primarily involve code refactoring.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Bytegrad](https://youtu.be/AeQ3f4zmSMs) - The why and how of zod: the schema validation library
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Rhf documentation](https://react-hook-form.com/) is top notch. Kudos to the team
+
+- [Vite docs](https://vitejs.dev/guide/build.html) - There's more to your quiet and efficient build tool
+
+- [Avoid spaghetti code](https://youtu.be/dQw4w9WgXcQ) - #1 resource for best practices
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- Frontend Mentor - [killer-goose](https://www.frontendmentor.io/profile/killer-goose)
+- Mastodon - [@mymind_is_a_mush](https://mastodon.social/@mymind_is_a_mush)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+[Bytegrad](https://www.youtube.com/@ByteGrad)- This guy makes absolute high quality content. I owe all my inspiration to work on a form based project to him.
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
-
+[Frontend mentor](https://www.frontendmentor.io/home) - Much thanks to provide me with a simple yet beautiful design that can engage me to the very end.
