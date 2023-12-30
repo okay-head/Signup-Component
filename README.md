@@ -44,10 +44,12 @@ Users should be able to:
 
 #### Mobile
 
-<p align="center">
+<p align="center" style="margin-bottom: 30px !important;>
   <img src="./public/images/screenshot-mob.png" alt="Mob screenshot" align="center">
 
-  
+</p>
+<p align="center">
+
   <img src="./public/images/screenshot-mob-error.png" alt="Mob screenshot error" align="center">
 </p>
 
