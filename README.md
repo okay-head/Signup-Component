@@ -46,6 +46,7 @@ Users should be able to:
 
 <p align="center">
   <img src="./public/images/screenshot-mob.png" alt="Mob screenshot" align="center">
+  
   <img src="./public/images/screenshot-mob-error.png" alt="Mob screenshot error" align="center">
 </p>
 
