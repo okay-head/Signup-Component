@@ -44,7 +44,7 @@ Users should be able to:
 
 #### Mobile
 
-<p align="center" style="margin-bottom: 30px !important;">
+<p align="center" style="margin-bottom: 60px !important;">
   <img src="./public/images/screenshot-mob.png" alt="Mob screenshot" align="center">
 
 </p>
