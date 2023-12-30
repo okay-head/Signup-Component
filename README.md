@@ -63,14 +63,14 @@ Users should be able to:
 
 ### Technologies used
 
-- **[React](https://react.dev/)** (for composable spaghetti code)
-- **[Typescript](https://www.typescriptlang.org/)** (type safety at the cost of headache)
-- **[Tailwindcss](https://tailwindcss.com/)** (for ugly HTML)
-- **[Tailwind/forms](https://github.com/tailwindlabs/tailwindcss-forms)** (for resets)
-- **[React hook form](https://react-hook-form.com/)** (form states, performance, errors)
-- **[Zod](https://zod.dev/)** (schema resolver, form validator)
-- **[Prettier](https://prettier.io/)** (tabs or spaces? pnpm format)
-- **[pnpm](https://pnpm.io/)** (low disk space? say no more)
+- **[React](https://react.dev/)** - for composable spaghetti code
+- **[Typescript](https://www.typescriptlang.org/)** - type safety at the cost of headache
+- **[Tailwindcss](https://tailwindcss.com/)** - for ugly HTML
+- **[Tailwind/forms](https://github.com/tailwindlabs/tailwindcss-forms)** - for resets
+- **[React hook form](https://react-hook-form.com/)** - form states, performance, errors
+- **[Zod](https://zod.dev/)** - schema resolver, form validator
+- **[Prettier](https://prettier.io/)** - tabs or spaces? pnpm format
+- **[pnpm](https://pnpm.io/)** - low disk space? say no more
 
 ### What I learned
 
