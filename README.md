@@ -101,7 +101,7 @@ Continued development will primarily involve code refactoring.
 - [Avoid spaghetti code](https://youtu.be/dQw4w9WgXcQ) - #1 resource for best practices
 
 ## Author
-Shashwat Jaiswal
+```Shashwat Jaiswal```
 - Frontend Mentor - [killer-goose](https://www.frontendmentor.io/profile/killer-goose)
 - Mastodon - [@mymind_is_a_mush](https://mastodon.social/@mymind_is_a_mush)
 
