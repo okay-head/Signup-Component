@@ -135,7 +135,7 @@ export default function Form() {
             </span>
           </button>
         </div>
-        <div className='mx-auto flex max-w-64 items-center text-sm font-medium text-neutral-grayBlue lg:max-w-[unset]'>
+        <div className='mx-auto flex max-w-64 flex-col items-center gap-2 text-sm font-medium text-neutral-grayBlue lg:max-w-[unset] lg:flex-row lg:gap-0'>
           <input
             {...register('checkbox')}
             type='checkbox'
