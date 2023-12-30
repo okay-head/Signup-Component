@@ -44,9 +44,9 @@ Users should be able to:
 
 #### Mobile
 
-![Screenshot mob](./public/images/screenshot-mob(1).png)
+![Screenshot mob](./public/images/screenshot-mob.png)
 
-![Screenshot mob](./public/images/screenshot-mob-error(1).png)
+![Screenshot mob](./public/images/screenshot-mob-error.png)
 
 ### Links
 
