@@ -44,13 +44,13 @@ Users should be able to:
 
 #### Mobile
 
-<div style="text-align: center;">
+<p align="center">
 
 ![Screenshot mob](./public/images/screenshot-mob.png)
 
 ![Screenshot mob](./public/images/screenshot-mob-error.png)
 
-</div>
+</p>
 
 ### Links
 
