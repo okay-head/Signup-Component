@@ -7,7 +7,6 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
   - [Deployment](#links) 🚀
 - [My process](#my-process)
@@ -20,8 +19,6 @@
 
 ## Overview
 
-### The challenge
-
 Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
@@ -30,7 +27,7 @@ Users should be able to:
   - Any `input` field is empty.
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`).
   - Password is less than 8 characters
-  - **I added a bonus checkbox for _T&C_. Form will not submit without checking this box first.**
+- **Checkbox for _T&C_: Form will not submit without checking this box first.**
 
 ### Screenshots
 
