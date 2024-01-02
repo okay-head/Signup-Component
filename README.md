@@ -1,15 +1,15 @@
-# Frontend Mentor - Intro component with sign up form
+# Sign up form
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4cc745ea-b285-40af-aa00-122d8844e963/deploy-status)](https://app.netlify.com/sites/gentle-froyo-74b6f1/deploys)
 
-This is a solution to the [following challenge](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1)
+> Form validation is a crucial component in an app. This mini project is an attempt to build a form using strict type checking and validation, adhering to the best practices.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshots](#screenshots)
-  - [Links](#links)
+  - [Deployment](#links) 🚀
 - [My process](#my-process)
   - [Built with](#technologies-used)
   - [What I learned](#what-i-learned)
@@ -30,13 +30,11 @@ Users should be able to:
   - Any `input` field is empty.
   - The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`).
   - Password is less than 8 characters
-  - I added a bonus checkbox for _T&C_. Form will not submit without checking this box first.
+  - **I added a bonus checkbox for _T&C_. Form will not submit without checking this box first.**
 
 ### Screenshots
 
 #### Desktop
-
-![Default view](./public/images/screenshot-desktop.png)
 
 ![Default view](./public/images/screenshot.png)
 
@@ -45,22 +43,17 @@ Users should be able to:
 #### Mobile
 
 <p align="center" style="margin-bottom: 60px !important;">
-  <img src="./public/images/screenshot-mob.png" alt="Mob screenshot" align="center">
-
-</p>
-<p align="center">
-
-  <img src="./public/images/screenshot-mob-error.png" alt="Mob screenshot error" align="center">
+  <img src="./public/images/screenshot-mob.png" alt="Mob screenshot" align="center" />
 </p>
 
 ### Links
 
-- Solution URL: [Github](https://github.com/killer-goose/Signup-Component)
-- Live Site URL: [Deployment](https://gentle-froyo-74b6f1.netlify.app/)
+- Live Site url: [Deployment](https://gentle-froyo-74b6f1.netlify.app/)
+- Solution url: [Github](https://github.com/killer-goose/Signup-Component)
 
 ## My process
 
-- Created a figma file out of images
+- Created a figma file out of the images provided
 - Designed my markup desktop-first
 - Added CSS mobile-first
 - Refactored, documented and all over again
@@ -107,6 +100,6 @@ Continued development will primarily involve code refactoring.
 
 ## Acknowledgments
 
-[Bytegrad](https://www.youtube.com/@ByteGrad)- This guy makes absolute high quality content. I owe all my inspiration to work on a form based project to him.
+- [Bytegrad](https://www.youtube.com/@ByteGrad)- This guy makes absolute high quality content. I owe all my inspiration to work on a form based project to him.
 
-[Frontend mentor](https://www.frontendmentor.io/home) - Much thanks to provide me with a simple yet beautiful design that can engage me to the very end.
+- [Frontend mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1) - Much thanks to provide me with a simple yet beautiful design that can engage me to the very end.
