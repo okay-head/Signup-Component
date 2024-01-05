@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4cc745ea-b285-40af-aa00-122d8844e963/deploy-status)](https://app.netlify.com/sites/gentle-froyo-74b6f1/deploys)
 
-> Form validation is a crucial component in an app. This mini project is an attempt to build a form using strict type checking and validation, adhering to the best practices.
+> Form validation is a crucial component in an app. This mini project is an attempt to build a form using strict type checking and validation, adhering to the best practices throughout.
 
 ## Table of contents
 
